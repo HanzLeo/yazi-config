@@ -27,3 +27,7 @@ end, 500, Status.RIGHT)
 require("yamb"):setup {
 	cli = "fzf",
 }
+
+require("no-status"):setup()
+
+require("full-border"):setup()
